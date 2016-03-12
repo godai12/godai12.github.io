@@ -55,7 +55,7 @@ function createIns(className, style, client, slot) {
   ins.setAttribute('style', style);
   ins.setAttribute('data-ad-client', client);
   ins.setAttribute('data-ad-slot', slot);
-  ins.setAttribute('data-ad-slot', 'rectangle');
+  ins.setAttribute('data-ad-format', 'rectangle');
   return ins;
 }
 
